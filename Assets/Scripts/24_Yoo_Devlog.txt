@@ -1,0 +1,85 @@
+﻿24_0912: Scoping a Game
+
+1) Basic Settings: Something I know how to do
+
+- 30 min: making long cityscape images
+- 20 min: making 3 different sprite images (default, hit once(smacked), hit twice(totally smacked)
+- 20 min: making Game over screen
+- 20 min: setting rigid body, gravity, etc. to player sprite
+- 30 min: making obstacles by long cityscape images
+
+
+2) Movements: Something I (probably) know how to do
+
+- 20 min: moving cityscape Gameobject to right
+- 15 min: testing the speed of cityscape GameObject movements, adjusting
+- 30 min: making player sprite move by pressing arrow keys on the keyboard
+- 20 min: Respawning new citysape images forever
+- 30 min: Respawning sprite image to the center if it almost left the screen
+- 20 min: Game Over screen 
+
+
+3) Something I need to learn (via youtube or unity documentations)
+- Changing sprite image if it's hit on the cityscape image
+
+
+
+<Priority>
+Basic Setup: Preparing obstacle and player images.
+Creating and set the panoramic image (obstacle) as a sprite.
+Preparing three player object images (default, hit once, hit twice).
+Assigning necessary components (e.g., Rigidbody2D) to obstacle and player objects.
+
+
+24_0912
+
+5:00pm
+current task: creating images that I need - drawing sprite, long panoramatic cityscapes
+    Draw simple, 3 different circular sprite images: default/a bit smashed/totally smashed)
+    Using my tablet, digital drawing software: clip studio
+    
+
+
+
+24_0914 18:00
+
+Current Task: Writing the Player Movement Script
+Implemented movement for the player using UpArrow, DownArrow, LeftArrow, and RightArrow keys.
+Adjusted Rigidbody2D settings, including gravity.
+
+
+24_0915 21:00
+
+Current Task: Writing the Obstacle Spawner Script
+Created the BuildingSpawner script to spawn obstacles at regular intervals.
+Watched a Korean unity Youtuber's video related to calculated respawn(https://www.youtube.com/watch?v=zbmREczH14Q)
+Leared something from the video and calculated sprite heights and adjusted their spawn positions but not 100% sure whether it really helps for the respawn
+Linked the panoramic Cityscape image prefab in the script.
+
+
+24_0916 18:30
+
+Current Task: Writing the Long Buildings(Obstacle) Movement Script
+Developed the BuildingMovement script to move obstacles from left to right.
+Added logic to destroy obstacles when they move off-screen.
+
+24_0917 19:00
+
+Current Task: Implementing Collision Logic
+Updated PlayerScript to handle collision detection with obstacles.
+Changed the player sprite based on the number of collisions.
+Added a simple game-over condition after three collisions but I guess I need to fix it
+
+
+24_0916 20:00
+
+Current Task: Game Manager Implementation
+Still working on the GameManagerScript to manage the game state, including score tracking but seems to be quite akward
+Adding logic to increase score when the player successfully passes an obstacle but seems to be unsuccessful
+
+
+24_0918 20:00
+Current Task: Preparing the necessary files for submission: Even if I make adjustments later, I need to get things ready in advance since there's a deadline
+Struggling with DeepL translator to translate all the comments and notes that I wrote: Kor ->Eng
+translated results seems to be a bit rigid
+Kinda envying English-First-Language developers

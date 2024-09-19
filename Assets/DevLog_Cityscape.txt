@@ -1,0 +1,36 @@
+﻿TODO:
+
+1) Basic Settings: Something I know how to do
+
+- 30 min: making long cityscape images
+- 20 min: making 3 different sprite images (default, smacked, totally smacked)
+- 20 min: makin Game over screen
+- 20 min: setting rigid body, gravity, etc. to player sprite
+- 30 min: making obstacles by long cityscape images
+
+
+2) Movements: Something I (probably) know how to do
+
+- 20 min: moving cityscape Gameobject to right
+- 15 min: testing the speed of cityscape GameObject movements, adjusting
+- 30 min: making player sprite move by pressing arrow keys on the keyboard
+- 20 min: Respawning new citysape images forever
+- 30 min: Respawning sprite image to the center if it almost left the screen
+- 20 min: Game Over screen 
+
+
+3) Animations: Something I need to learn
+- Changing sprite image if it's hit on the cityscape image
+- Changing background image like GIF image
+
+
+
+24_0912
+1:00pm
+current task: making player sprite to move 4 way when 4 arrow keys are pressed.
+
+5:00pm
+current task: creating images that I need - drawing sprite, long panoramatic cityscapes
+    Draw simple, 3 different circular sprite images: default/a bit smashed/totally smashed)
+    Using my tablet, digital drawing software: clip studio
+    
