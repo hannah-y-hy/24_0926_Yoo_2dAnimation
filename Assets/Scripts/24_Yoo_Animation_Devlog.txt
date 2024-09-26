@@ -1,0 +1,54 @@
+﻿24_0922
+
+Current Task: finding out problems
+    1. play again button seems not to be working
+    2. Game over screen pops up even though the player hit the obstacle only once
+        ( It has to be pop up at 3rd hit )
+Struggling with play again button but doesn't seems to be fixed till today
+
+
+24_0923
+
+Current Task: trying to fix the problem related to game over screen
+Seems like I have to do something with Logic Script in order to fix that
+Keep googling
+Just realized that I have to fix Player script, not Logic script.
+    (Tbh not 100% sure whether it's the right way or not but I'll make a try anyway)
+Guess I could reuse the HitCount method that I originally used to change the appearence of the player sprite when it hits the obstacles
+still googling
+
+
+24_0924
+Current Task: finishing the game over screen thing
+Watching Unity Tutorial youtube video again to make sure I understand "PlayerIsAlive" thing
+Going through Unity Documentation webpage that is related to "if & else"
+combined 'if' & "AirplaneIsAlive" to make sure the game over screen pops up at the 3rd hit of the player
+Current Task: Struggling with scaling animation
+Going through last week's in-class activity again(animation tutorial)
+Decided to apply some basic scaling animation on my Cityscaape game
+starting with really simple scaling up&down animation on the player sprite
+
+
+24_0925
+The animation was working till I saved the project and turning my laptop to sleep mode but it's not today
+Current task: Figuring out what happened during last night
+
+Clicked the player object and went through the Animation panel but my animation is gone
+clicking and discovering all the animation-related stuff in Unity
+Just realized that the animation is saved like some sort of prefab at the Assets folder
+Figuring out hou could I apply the animation back to the player sprite
+Seems like I have to do something with animation controller
+Searching some information about Animation trigger
+    -Coffee Break-
+Current Task: Finishing simple scaling animation
+Learned that there's something I could do with Animator controller and parameter while going through Unity animation basics
+made 'Fly' Animator controller
+added 'Fly' Parameter
+experimenting simple stuff on the Parameters tab on the Animator panel
+    (seems like some sort of Block Coding tho)
+connected animator component to the player sprite
+Wanted to make the animation happen when I press the flying key(up arrow key) so looking for some information about setting the trigger
+added animation trigger-related stuff to Playerscript
+playing the game
+    -> not 100% sure whether the trigger really works so I guess I have to make a Debug.log related to this
+    -> that's gonna be the next task for now

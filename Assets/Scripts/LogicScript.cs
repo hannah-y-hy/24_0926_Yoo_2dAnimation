@@ -1,32 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LogicScript : MonoBehaviour
 {
-    public int playerScore = 0; // 플레이어 점수
-    public GameObject gameOverScreen; // 게임 오버 화면
-    public UnityEngine.UI.Text scoreText;  // 점수 표시를 위한 UI 텍스트
+    public int playerScore; // 현재 플레이어의 점수 / Player's current score
+    public Text scoreText; // UI에 표시될 점수 텍스트 / UI text to display the score
+    public GameObject GameOverScreen;
 
-    // 점수를 추가하는 메서드입니다 / Method to add score
-    [ContextMenu("Add Score")]
-    public void AddScore(int scoreToAdd)
+    // 점수를 증가시키는 메서드 / Method to add score
+    [ContextMenu("Increase Score")]
+    public void AddScore()
     {
-        playerScore += scoreToAdd;
-        scoreText.text = playerScore.ToString();
+        playerScore = playerScore + 1; // 점수 증가 / Increase score
+        scoreText.text = playerScore.ToString(); // UI 업데이트 / Update UI
     }
 
-    // 게임 오버를 처리하는 메서드입니다 / Method to handle game over
-    [ContextMenu("Trigger Game Over")]
+    // 게임 오버 처리 / this is related to game over
+    public void restartgame()
+    {
+        Debug.Log("Current Scene Name: " + SceneManager.GetActiveScene().name);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     public void GameOver()
     {
-        gameOverScreen.SetActive(true);
-        Debug.Log("Game Over");
-    }
-
-    // 게임을 재시작하는 메서드입니다 / Method to restart the game
-    [ContextMenu("Restart Game")]
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameOverScreen.SetActive(true);
     }
 }

@@ -4,13 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - GameManager
   - Obstacle
+  - Logic
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
