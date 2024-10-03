@@ -29,7 +29,7 @@ Decided to apply some basic scaling animation on my Cityscaape game
 starting with really simple scaling up&down animation on the player sprite
 
 
-24_0925
+24_0925 ~ 0926 
 The animation was working till I saved the project and turning my laptop to sleep mode but it's not today
 Current task: Figuring out what happened during last night
 
@@ -38,7 +38,7 @@ clicking and discovering all the animation-related stuff in Unity
 Just realized that the animation is saved like some sort of prefab at the Assets folder
 Figuring out hou could I apply the animation back to the player sprite
 Seems like I have to do something with animation controller
-Searching some information about Animation trigger
+Searching some information about Animation 'trigger' thing
     -Coffee Break-
 Current Task: Finishing simple scaling animation
 Learned that there's something I could do with Animator controller and parameter while going through Unity animation basics
@@ -52,3 +52,15 @@ added animation trigger-related stuff to Playerscript
 playing the game
     -> not 100% sure whether the trigger really works so I guess I have to make a Debug.log related to this
     -> that's gonna be the next task for now
+
+24_0926
+<something I learned from the group discussion>
+    I could use sprite sheets instead of changing the 
+    Goal: not making perfect, super fancy game but
+
+Rigidbody physics: has to be every top of the child GOs
+    e.g: even though I have a bunch of coliders, there should be only one Rigidbody component
+
+User experience
+how does my players experience, makw guess, predict, get information...
+plain language == psudo code
